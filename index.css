@@ -1,0 +1,69 @@
+
+.contenedor
+{
+    margin: auto;
+    width: fit-content;
+    padding: 2%;
+}
+
+.liDatos{
+    min-height: 50px;
+}
+
+
+img{
+    width: 200px;
+    height: 258px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listadoImg{
+    width: 80px;
+    height: auto;
+}
+
+
+.datos
+{
+    margin: auto;
+    padding: 2%;
+}
+
+.datos2{
+    justify-content: center;
+    align-items: center;
+}
+
+.alertaError{
+    width: fit-content;
+    margin: auto;
+    margin-top: 5px;
+    min-height: 140px;
+}
+
+.btn1{
+    margin: auto;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.navbar-brand{
+    color: brown !important;
+}
+
+
+/*PARA MOVILES------------------------------------------------------------------*/
+@media screen and (max-width: 550px)
+{
+    .contenedor
+    {
+        box-shadow: none;
+    }
+}
+
